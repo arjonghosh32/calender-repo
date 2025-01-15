@@ -1,0 +1,50 @@
+.calender{
+   display: grid;
+   grid-template-columns: repeat(7, 1fr);
+   height: 300px;
+   width: 300px;
+   row-gap: 10px;
+column-gap: 10px;
+}
+
+h1{
+    display:flex;
+    justify-content: center;
+    
+
+}
+
+.date, .day{
+    background-color: #87ceeb;
+    border: 3px;
+    border-radius: 5px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+.deefrant{
+    background-color:#87ceeb;
+    color:#555;
+    border: 3px;
+    border-radius: 5px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+.day{
+    background-color: #555;
+    color: rgb(241, 227, 209);
+    font-size: small;
+}
+
+.calender-contaner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid maroon;
+    height: 600px;
+}
